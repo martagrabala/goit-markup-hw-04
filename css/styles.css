@@ -119,20 +119,26 @@ img {
 }
 
 .contact-link {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
-  margin-left: 10px;
+  fill: #757575;
 }
 
 .contact-link:hover,
 .contact-link:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 
+.icon-envelope,
+.icon-smartphone {
+  margin-right: 10px;
+}
 .contact-item {
   align-content: center;
   display: flex;
@@ -181,6 +187,7 @@ img {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0;
   color: #ffffff;
   cursor: pointer;
 }
